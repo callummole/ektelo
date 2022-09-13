@@ -4,8 +4,8 @@ from ektelo.mixins import Marshallable
 from ektelo import util
 import hashlib
 
-from . import ahp
-from . import dawa
+#from . import ahp
+#from . import dawa
 
 
 class BaseAlgorithm(Marshallable):
