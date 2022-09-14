@@ -11,8 +11,6 @@ sources = ["privBayesSelect.pyx",
            "lib/noise.cpp",
            "lib/privBayes_model.cpp"]
 
-[dir + s for s in sources]
-
 setup(ext_modules = cythonize(Extension(
            "privBayesSelect",                           # the extension name
            sources=[dir + s for s in sources],            # the Cython source and
