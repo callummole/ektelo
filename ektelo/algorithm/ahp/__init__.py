@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 import math
 import numpy as np
-from . import ahp_fast
+from lib import ahp_fast
 from ektelo.algorithm import estimate_engine
 from ektelo import util 
 

@@ -6,7 +6,7 @@ import hashlib
 
 #from . import ahp
 #from . import dawa
-
+import privBayesSelect # hack so that you can do 'from ektelo.algorithm import privBayesSelect
 
 class BaseAlgorithm(Marshallable):
 
